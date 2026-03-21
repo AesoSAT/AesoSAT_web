@@ -1,0 +1,121 @@
+.header_index {
+    height: 725px !important;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    height: 560px;
+}
+.logo {
+    height: 350px;
+    width: 350px;
+}
+.title {
+    margin-top: 10px;
+    color: #fffffa;
+    font-size: 50pt;
+}
+.slogan {
+    margin-top: 15px;
+    color: #fffffa;
+}
+.help {
+    height: 85px;
+    width: 165px;
+    background: #ffa400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #00000a;
+    font-size: 18pt;
+    margin-top: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.cansat {
+    height: 400px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.cansat_video_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cansat_video {
+    height: 350px;
+    width: 90%;
+}
+.cansat_explanation {
+    padding: 10px;
+}
+.cansat_explanation_title {
+    font-size: 24pt;
+}
+.cansat_explanation_text {
+    font-size: 15pt;
+    margin-top: 15px;
+    text-align: justify;
+    padding-right: 50px;
+}
+.missions {
+    height: 400px;
+    width: 100%;
+    background: #ffa400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.missions_title {
+    font-size: 24pt;
+}
+.missions_zone {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 50px;
+    margin-top: 25px;
+}
+.missions_zone_section {
+    padding: 20px;
+    background: #2176ae;
+    width: 90%;
+    border-radius: 15px;
+}
+.missions_zone_title {
+    font-size: 24pt;
+    color: #fffffa;
+}
+.missions_zone_text {
+    margin-top: 10px;
+    font-size: 15pt;
+    color: #fffffa;
+}
+.missions_zone_list {
+    font-size: 15pt;
+    list-style-type: circle;
+    padding-left: 25px;
+    color: #fffffa;
+}
+.videos {
+    height: 500px;
+    background: #b1b1b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+.videos_videobig {
+    height: 475px;
+    width: 825px;
+}

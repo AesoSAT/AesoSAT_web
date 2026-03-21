@@ -1,0 +1,144 @@
+* {
+    font-family: 'Courier'
+}
+body {
+    background: #00000a;
+}
+.list {
+    height: 765px;
+    width: 1516px;
+    border: 1px solid #fffffa;
+    margin: 10px;
+}
+.header_container {
+    height: 75px;
+    border-bottom: 1px solid #fffffa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    position: absolute;
+    color: #fffffa;
+    font-size: 50px;
+}
+.close {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #00000a;
+    border: none;
+    color: #f1f2f3;
+    font-weight: 500;
+    font-size: 30px;
+    bottom: calc(100% / 2 - 50px / 2);
+    left: calc(100% / 2 - 50px / 2);
+}
+.close:hover {
+    background: #c91e1e;
+}
+.list_container {
+    margin-top: 5px;
+}
+.top {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.top > div {
+    border-right: 1px solid rgba(255, 255, 255, .7);
+    display: flex;
+    align-items: center;
+}
+.blank {
+    width: 50px;
+}
+.name {
+    width: 200px;
+}
+.location {
+    width: 300px;
+}
+.date {
+    width: 175px;
+}
+.hour {
+    width: 150px;
+}
+.time {
+    width: 175px;
+}
+.status {
+    width: 150px;
+}
+.filter {
+    border-right: none !important;
+    width: calc(100% - 50px - 200px - 300px - 2*175px - 2*150px - 1*7px);
+    justify-content: right;
+}
+.filter_text {
+    margin-right: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #00000a;
+}
+.top > div > h3 {
+    color: #fffffa;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.content {
+    height: calc(100% - 75px);
+    overflow-y: auto;
+}
+.data {
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.data > div {
+    display: flex;
+    align-items: center;
+}
+.data:hover {
+    background: #1c1c1c;
+    cursor: pointer;
+}
+.data_logo {
+    width: 50px;
+}
+.data_logo_img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding-left: 3px;
+}
+.data_name {
+    width: 200px;
+}
+.data_location {
+    width: 300px;
+}
+.data_date {
+    width: 175px;
+}
+.data_hour {
+    width: 150px;
+}
+.data_time {
+    width: 175px;
+}
+.data_status {
+    width: 150px;
+}
+.data > div > h3 {
+    color: #fffffa;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

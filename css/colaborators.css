@@ -1,0 +1,116 @@
+.colaborators {
+    padding: 20px;
+    background: #fffffa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.explain {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.explain_title {
+    font-size: 24pt;
+    text-align: center;
+}
+.explain_text {
+    font-size: 15pt;
+    padding: 15px;
+    text-align: justify;
+}
+.color_diamond {
+    color: #4ab5e6;
+}
+.color_gold {
+    color: #ffd700;
+}
+.color_silver {
+    color: #c0c0c0;
+}
+.color_bronze {
+    color: #d89a5b;
+}
+.podium {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.diamond, .gold, .silver, .bronze, .particulars {
+    height: 250px;
+    width: 1000px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 15px;
+}
+.diamond {
+    border: 15px solid #4ab5e6;
+    grid-template-columns: repeat(2, 1fr);
+}
+.gold {
+    border: 15px solid #ffd700;
+    grid-template-columns: repeat(3, 1fr);
+}
+.silver {
+    border: 15px solid #c0c0c0;
+    grid-template-columns: repeat(1, 1fr);
+}
+.bronze {
+    border: 15px solid #d89a5b;
+    grid-template-columns: repeat(1, 1fr);
+}
+.diamond > div, .gold > div, .silver > div, .bronze > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.podium_logo {
+    max-height: calc(250px - 25px);
+    max-width: calc((1000px - 25px) / 2);
+}
+.class_text {
+    text-align: center;
+    font-size: 15pt;
+    padding: 15px;
+}
+.particulars {
+    height: 150px;
+    width: 65%;
+    border: 15px solid #4a86e8;
+    grid-template-columns: repeat(5, 1fr);
+}
+.particulars > div {
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.particular_logo {
+    height: calc(150px - 25px);
+}
+.others {
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.others_sup, .others_inf {
+    text-align: center;
+    font-size: 15pt;
+    padding: 15px;
+}
+.others_img {
+    width: 95%;
+}
+.others_inf {
+    margin-top: 15px;
+}
+.others_symbols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.others_symbol {
+    height: 600px;
+}

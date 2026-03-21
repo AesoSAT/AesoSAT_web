@@ -1,0 +1,47 @@
+.team {
+    height: 800px;
+    padding: 5px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.team_title {
+    font-size: 24pt;
+    text-align: center;
+}
+.team_img {
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+}
+.team_text {
+    font-size: 15pt;
+    margin-top: 10px;
+    text-align: center;
+    width: 70%;
+}
+.videos {
+    height: 300px;
+    background: #ffa400;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 0px 25px;
+}
+.videos_video {
+    height: 225px;
+    width: 92.5%;
+}
+.videobig {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c1c1c1;
+}
+.videobig_video {
+    height: 500px;
+    width: 850px;
+}

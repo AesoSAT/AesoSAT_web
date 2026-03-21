@@ -1,0 +1,24 @@
+- Arreglar css (mirar estils repetits)
+- Arreglar html (hi han div_containers innecessàris)
+- Com a cosa final, fer que les dades es puguin veure a la web (fer la web amb node+root, no amb root)
+- Afegir més fotos i fer videos "Activitats"
+- Arreglar porada video Alba "Equip"
+- Copyright videos Oscar
+- Posar més posts (proves pont 1,2,3, fira bolet i fira codony)
+- Canviar icono pestanya
+- Adaptació als mòbils
+- Afegir logo Ca L'Andreu
+- Afegir estrella fira codony
+- Posar lliguetes patrocinadors
+- Posar Leila (pagament plaques)
+- Fer pàgina contacte (fer web node - php)
+
+"RECORDAR D'ELIMINAR ELS ARXIUS NO NECESSARIS"
+
+Com penjar la web:
+git init
+git add .
+git commit -m "AesoSAT_9 - DataPage"
+git remote add origin https://github.com/AesoSAT/AesoSAT.git
+git branch -M main
+git push -u origin main
