@@ -1,0 +1,107 @@
+.contact {
+    height: 550px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact_header {
+    text-align: center;
+}
+.contact_title {
+    font-size: 24pt;
+}
+.contact_text {
+    font-size: 15pt;
+    margin-top: 15px;
+}
+.contact_container {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact_container > div {
+    margin-bottom: 15px;
+}
+.contact_inputs_top {
+    display: flex;
+    flex-direction: row;
+}
+.contact_inputs_top > div:first-child {
+    margin-right: 20px;
+}
+.contact_label {
+    font-size: 17pt;
+}
+.contact_input, .contact_input_mail {
+    border: 1px solid #00000a;
+    font-size: 14pt;
+    height: 26pt;
+    width: 250px;
+    padding-left: 5px;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contact_input:hover, .contact_input_mail:hover, .contact_input:focus, .contact_input_mail:focus, .contact_input:focus-visible, .contact_input_mail:focus-visible {
+    border: 1px solid transparent;
+    outline: none;
+}
+.contact_input_mail {
+    border: 1px solid #00000a;
+    width: calc(250px*2 + 25px) !important;
+}
+.contact_textarea {
+    border: 1px solid #00000a;
+    height: calc(22pt*5);
+    width: calc(250px*2 + 25px);
+    padding: 1.5px 3.5px;
+    font-size: 14pt;
+    resize: none;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contact_textarea:hover, .contact_textarea:focus, .contact_textarea:focus-visible {
+    border: 1px solid transparent;
+    outline: none;
+}
+.contact_button {
+    height: 50px;
+    font-size: 18pt;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, .8);
+    cursor: pointer;
+    background: #ffa400;
+    font-weight: bold;
+}
+.contact_button:hover {
+    border: 1px solid transparent;
+}
+
+.mail {
+    height: 350px;
+    background: #ffa400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 0px 100px;
+    user-select: auto;
+}
+.mail_title {
+    font-weight: 500;
+}
+.mail_span {
+    color: #00006e;
+    text-decoration: underline;
+}
+.mail_title, .mail_span {
+    user-select: text;
+}
